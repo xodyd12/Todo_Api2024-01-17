@@ -22,7 +22,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 @RestController
 @Slf4j
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:3000"}) // API접근을 허용할 클라이언트 ID
+//@CrossOrigin(origins = {"http://localhost:3000"}) // API접근을 허용할 클라이언트 ID
 @RequestMapping("/api/todos")
 public class TodoController {
 
