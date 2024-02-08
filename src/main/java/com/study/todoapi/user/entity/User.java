@@ -44,6 +44,8 @@ public class User {
     @Builder.Default //회원가입시 자동으로 기본값 처리
     private Role role = Role.COMMON;
 
+    private String profileImg;
+
 
     @OneToMany(mappedBy = "user")
     private List<Todo> todoList = new ArrayList<>();

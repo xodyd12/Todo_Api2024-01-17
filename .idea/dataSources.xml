@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:mariadb://localhost:3307</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="@spring-database.cvyq0w6w2hcz.ap-northeast-2.rds.amazonaws.com" uuid="12562d4e-d739-4e18-aa9c-9c81768338a8">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://spring-database.cvyq0w6w2hcz.ap-northeast-2.rds.amazonaws.com:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

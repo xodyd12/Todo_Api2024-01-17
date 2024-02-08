@@ -1,4 +1,4 @@
-package com.study.todoapi.user.Userdto.response;
+package com.study.todoapi.user.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
